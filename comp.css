@@ -1,0 +1,28 @@
+.ui1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  height: 370px;
+}
+
+.imageui1 {
+  height: 40%;
+  background-image: url(img/smorcthumb.jpg);
+  background-size: cover;
+  border: 1px solid black;
+  background-position: center;
+}
+
+.textui1 {
+  height: 40%;
+  width: 100%;
+}
+.textui1 h1 {
+  color: lightgreen;
+}
+.textui1 p {
+  color: darkgray;
+}
+
+/*# sourceMappingURL=comp.css.map */
