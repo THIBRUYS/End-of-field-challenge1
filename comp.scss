@@ -1,24 +1,105 @@
+/* ui1 components */
 .ui1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     height: 370px;
+    font-family: 'Work Sans', sans-serif;
 }
-.imageui1 {
+.imageui11, .imageui12, .imageui13, .imageui14  {
     height: 40%;
+}
+.imageui11 {
     background-image: url(img/smorcthumb.jpg);
+    background-position: center;
     background-size: cover;
-    border: 1px solid black;
+}
+.imageui12{
+    background-image: url(img/Pogchamp.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imageui13{
+    background-image: url(img/frankerZ.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imageui14{
+    background-image: url(img/5head.jpg);
+    background-size: cover;
     background-position: center;
 }
 .textui1 {
     height: 40%;
     width: 100%;
+    padding: 5%;
     h1 {
         color: lightgreen;
+        font-size: 25px;
+        line-height: 45px;
     }
     p {
         color: darkgray;
+        font-size: 15px;
+        font-weight: bold;
     }
+    span {
+        font-weight: bolder;
+    }
+}
+/* ui2 components */
+.ui2 {
+    background-color: rgb(66, 133, 244);
+    height: 650px;
+    width: 350px;
+    border: 5px solid lightgray;
+    color: white;
+    h1 {
+        font-size: 15px;
+    }
+    h2, td{
+        font-size: 13px;
+    }
+    h2 {
+        color: rgb(228, 228, 228);
+    }
+    hr {
+        border-color: rgb(198, 212, 252);
+    }
+    p {
+        font-size: 55px;
+        font-weight: lighter;
+    }
+}
+.usersui2, .viewsui2, .pagesui2 {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.viewsui2 {
+    h2{
+        margin-bottom: -12px;
+    }
+}
+.pagesui2 {
+    tr {
+        border-bottom: 1px solid rgb(198, 212, 252);
+        line-height: 30px;
+    }
+    & :last-child {
+        border-bottom: 0px;
+    }
+}
+.pageusersui2 {
+    text-align: end;
+}
+.footerui2 {
+    text-align: end;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid rgb(198, 212, 252);
 }
