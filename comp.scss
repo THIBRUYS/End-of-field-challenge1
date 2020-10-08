@@ -57,6 +57,7 @@
     width: 350px;
     border: 5px solid lightgray;
     color: white;
+    margin: 100px;
     h1 {
         font-size: 15px;
     }
@@ -102,4 +103,49 @@
     width: 100%;
     padding: 15px;
     border-top: 1px solid rgb(198, 212, 252);
+}
+/* end of ui2 */
+.ui3 {
+    height: 300px;
+    width: 500px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    margin: 100px;
+    display: flex;
+}
+.imageui3 {
+    width: 45%;
+    height: 100%;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    display: flex;
+}
+.bodyui3 {
+    height: 100%;
+    width: 55%;
+    padding: 15px;
+    color: gray;
+    font-size: 12px;
+    h1 {
+        font-size: 16px;
+        color: black;
+    }
+    h2 {
+        font-size: 14px;
+        color: black;
+    }
+}
+.footerui3 {
+    display: flex;
+    justify-content: space-between;
+}
+.avatarui3 {
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footerinfosui3 {
+    display: flex;
+    justify-content: space-between;
 }
