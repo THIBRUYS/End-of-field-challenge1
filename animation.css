@@ -1,0 +1,39 @@
+.box {
+    background-color: lightgrey;
+    width: 700px;
+    height: 700px;
+    padding: 10px;
+}
+.racetrack {
+    height: 100%;
+    width: 100%;
+    border: 1px dashed black;
+}
+@keyframes kemmel {
+    0% { transform: translate(0px , 0px) }
+    100% { transform: translate(550px , 0px) }
+}
+@keyframes combes {
+    0% { transform: translate(550px , 0px) }
+    100% { transform: translate(550px , 150px) }
+}
+@keyframes bruxelles {
+    0% { transform: translate(550px, 150px) rotate(0deg) }
+    100% { transform: translate(350px, 150px) rotate(45deg) }
+}
+@keyframes nonamecorner {
+    0% { transform: translate(350px, 150px) rotate(45deg) ; border-color: red; }
+    100% { transform: translate(0px, 150px) rotate(0deg) ; border-color: #0900bd; }
+}
+@keyframes pouhon {
+    0 { transform: translate(0px, 150px) ; border-color: #0900bd; border: 2px dashed ; width: 75px; height: 75px; border-radius: 0%; background-color: none; background: none; }
+    100% { transform: translate(500px, 500px) ; border-color: #0900bd; border: 0px ; width: 150px; height: 150px; border-radius: 50%; background-color: #fbda61; background: radial-gradient(circle, #fbda61 0%, #f76b1c 100%);}
+}
+
+#hero {
+    border: 2px dashed red;
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    animation: kemmel 5s linear forwards, combes 2s linear 5s forwards, bruxelles 0.5s linear 7s forwards, nonamecorner 2.5s linear 9.5s forwards, pouhon 5s linear 12s forwards;
+}
