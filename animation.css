@@ -1,8 +1,10 @@
-.box {
+.stage {
     background-color: lightgrey;
     width: 700px;
     height: 700px;
     padding: 10px;
+    margin: auto;
+    
 }
 .racetrack {
     height: 100%;
@@ -26,7 +28,7 @@
     100% { transform: translate(0px, 150px) rotate(0deg) ; border-color: #0900bd; }
 }
 @keyframes pouhon {
-    0 { transform: translate(0px, 150px) ; border-color: #0900bd; border: 2px dashed ; width: 75px; height: 75px; border-radius: 0%; background-color: none; background: none; }
+    0% { transform: translate(0px, 150px) ; border-color: #0900bd; border: 2px dashed ; width: 75px; height: 75px; border-radius: 0%; background-color: none; background: none; }
     100% { transform: translate(500px, 500px) ; border-color: #0900bd; border: 0px ; width: 150px; height: 150px; border-radius: 50%; background-color: #fbda61; background: radial-gradient(circle, #fbda61 0%, #f76b1c 100%);}
 }
 
